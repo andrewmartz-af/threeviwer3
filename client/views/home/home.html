@@ -1,0 +1,16 @@
+<template name="home">
+  <div class="home">
+    <div class="container">
+      <div class="jumbotron">
+          <!--The site title is pulled from our seo.js-->
+        <h1>DENTTI</h1>
+
+        <p class="lead">Orthodontic Aligners</p>
+        <p>
+            <!--pathFor asks Iron Router to fill the url in, in case it changes-->
+          <a href="{{pathFor 'dashboard'}}" class="btn btn-lg btn-success">My Patients</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
